@@ -1,0 +1,19 @@
+{
+    "name": "luisc/taller2",
+    "description": "taller 2 php",
+    "autoload": {
+        "psr-4": {
+            "taller2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lcortega",
+            "email": "lortega@sgvsoftware.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.2",
+        "nesbot/carbon": "^2.72"
+    }
+}
